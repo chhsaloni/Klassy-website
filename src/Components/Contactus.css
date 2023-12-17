@@ -1,0 +1,145 @@
+
+.contact{
+    
+    background-image: url(https://templatemo.com/templates/templatemo_558_klassy_cafe/assets/images/reservation-bg.jpg);
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-contact{
+    margin-top: 5rem ;
+    margin-bottom: 5rem;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact-description{
+    width: 50%;
+    color: #f9f9f9;
+    box-sizing: border-box;
+
+}
+
+.contact-form{
+    width: 45%;
+    border-radius: 5px;
+    background-color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h3{
+    color: #f9f9f9;
+}
+.h4{
+    padding: 0;
+}
+.inner-description{
+    height: 28%;
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.phone{
+    height: 100%;
+    width: 40%;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+
+}
+.phone-logo{
+    height: 70px;
+    width: 70px;
+    background-color: #fb5849;
+    border-radius: 50%;
+    font-size: 24px;
+    bottom: 35px;
+    color: #fff;
+    position: relative;
+    bottom: 35px;
+}
+#p1{
+    position: relative;
+    bottom: 10px;
+}
+.form{
+    height: 100%;
+    width: 90%;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+@media (max-width: 974px){
+    .inner-contact{
+        display: block;
+    }
+    .contact-description{
+        width: 100%;
+    }
+    .contact-form{
+        margin-top: 2rem;
+        width: 100%;
+    }
+    .form{
+        width: 100%;
+        height: 35rem;
+    }
+    .inner-description{
+        display: block;
+    }
+    .phone{
+        width: 100%;
+        margin-top: 5em;
+    }
+}
+.f4{
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 700;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.f1{
+    height: 2rem;
+    width: 40%;
+    margin: 0px 20px;
+    box-sizing: border-box;
+}
+input{
+    height: 100%;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 14px;
+}
+.f2{
+    height: 7rem;
+    width: 100%;
+    margin: 0px 20px;
+
+}
+.f3{
+    height: 3rem;
+    width: 100%;
+    margin: 0px 20px;
+  
+}
+.f31:hover{
+    cursor: pointer;
+    opacity: .9;
+}
