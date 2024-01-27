@@ -1,21 +1,22 @@
 import logo from "./logo.svg";
+import React from 'react';
 import "./App.css";
-import Navbar from "./Components/Navbar/Navbar";
-import Carousel from "./Components/Carousel/Carousel";
-import Aboutus from "./Components/Aboutus/Aboutus";
-import Menu from "./Components/Menu/Menu";
-import OurChef from "./Components/OurChef/OurChef";
-import Contactus from "./Components/Contactus";
+import {BrowserRouter as Router,Route,Routes} from "react-router-dom";
+import HomePage from "./Pages/HomePage";
+import LoginPage from "./Pages/LoginPage";
+import AdminPage from "./Pages/AdminPage";
+// import Contactus from "./Components/Contactus";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Carousel />
-      <Aboutus />
-      <Menu />
-      <OurChef />
-      <Contactus/>
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/login" element={<AdminPage />} />
+        </Routes>
+      </Router>
     </>
   );
 }

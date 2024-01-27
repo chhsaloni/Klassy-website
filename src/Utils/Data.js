@@ -40,6 +40,24 @@ const Data = [
       imageUrl:
         "https://templatemo.com/templates/templatemo_558_klassy_cafe/assets/images/menu-item-04.jpg",
     },
+    {
+      id: "chef1",
+      chefname:"saloni",
+      cakes: "cheese-cake",
+      imageUrl:"https://templatemo.com/templates/templatemo_558_klassy_cafe/assets/images/menu-item-04.jpg",
+    },
+    {
+      id: "chef2",
+      chefname:"prajjal",
+      cakes: "cheese-cake",
+      imageUrl:"https://templatemo.com/templates/templatemo_558_klassy_cafe/assets/images/menu-item-04.jpg",
+    },
+    {
+      id: "chef3",
+      chefname:"anil",
+      cakes: "cheese-cake",
+      imageUrl:"https://templatemo.com/templates/templatemo_558_klassy_cafe/assets/images/menu-item-04.jpg",
+    },
 ];
 
 export default Data;
